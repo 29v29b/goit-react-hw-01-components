@@ -1,16 +1,16 @@
 import { Container } from './Container/Container';
 
 import { Profile }  from './Profile/Profile';
-import user from './user.json';
+import user from '../data/user';
 
 import { Statistics } from './Statistics/Statistics';
-import data from './data.json';
+import data from '../data/data';
 
 import { FriendList } from './FriendList/FriendList';
-import friends from './friends.json';
+import friends from '../data/friends';
 
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
-import transactions from './transactions.json';
+import transactions from '../data/transactions';
 
 export const App = () => {
   return (
